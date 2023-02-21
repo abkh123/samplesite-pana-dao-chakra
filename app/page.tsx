@@ -1,13 +1,17 @@
 'use client'
-import {Heading} from "@chakra-ui/react"
-import Navbar from "@/components/navbar"
+import Navbar from "@/components/header/Navbar"
+import TopContainer from "@/components/topcontainer/TopContainer"
+import {Box} from "@chakra-ui/react"
 
 export default function Home() {
   return (
     <>
-    <Navbar>abc</Navbar>
-    
     {/* <Heading> Wrapped in Chkra</Heading> */}
+    <Navbar/>
+    <Box as="main">
+      <TopContainer/>
+    </Box>
+
 
     </>
 
