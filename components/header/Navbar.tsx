@@ -4,7 +4,7 @@ import { SearchIcon, MoonIcon } from '@chakra-ui/icons';
 
 export default function Navbar() {
   return (
-    <Box pt={5}>
+    <Box pt={5} as="header">
       {/* left area */}
       <Flex justifyContent={"space-around"} alignItems={"center"}>
         <Box>
