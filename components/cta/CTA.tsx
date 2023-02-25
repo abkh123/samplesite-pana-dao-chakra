@@ -13,7 +13,7 @@ export default function CTA() {
 
     return (
     <Box>
-      <Container maxW={1200} bg="blue.50" bg={colorMode == "light" ? "blue.50" : "black"} p="20">
+      <Container maxW={1200} bg={colorMode == "light" ? "blue.50" : "black"} p="20">
       <Stack direction={{ base: "column", md: "row" }}>      
         
           <Box flex={3}>
